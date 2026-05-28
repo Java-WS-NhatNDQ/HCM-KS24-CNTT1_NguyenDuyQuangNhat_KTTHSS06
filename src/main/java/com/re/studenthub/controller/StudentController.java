@@ -12,7 +12,7 @@ import java.net.URI;
 import java.util.List;
 import java.util.Map;
 
-@Controller
+@RestController
 @RequestMapping("/api/students")
 @RequiredArgsConstructor
 public class StudentController {
